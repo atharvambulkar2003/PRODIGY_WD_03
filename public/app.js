@@ -49,6 +49,7 @@ for(let box of boxes){
                 player=1;
             }
             winner.innerText=`Player ${player} wins`;
+            length=0;
             setTimeout(resetGame,1000);
         }
     });
